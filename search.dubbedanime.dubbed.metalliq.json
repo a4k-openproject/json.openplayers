@@ -1,0 +1,71 @@
+{
+ "name"         : "Dubbed Anime Dubbed",
+ "repository"   : "repository.magicality",
+ "plugin"       : "plugin.video.dubbedanime",
+ "priority"     : 100,
+ "id"           : "search.dubbedanime.dubbed",
+ "filters"      : {},
+ "postprocess"  : "",
+ "movies"       : [
+  [
+   {
+    "link"      : "plugin://plugin.video.dubbedanime/?iconimage=special%3A%2F%2Fhome%2Faddons%2Fplugin.video.dubbedanime%2Fresources%2Fimages%2FSearch.jpg&mode=Searchterm&name={title}",
+    "steps"     : [
+     "({title}|{title|replace(&colon;, the movie&colon;)}|{title|replace( the movie,)})",
+     ".*",
+     ".*dubbed"
+     ],
+    "action"    : "PLAY"
+   },
+   {
+    "link"      : "plugin://plugin.video.dubbedanime/?iconimage=special%3A%2F%2Fhome%2Faddons%2Fplugin.video.dubbedanime%2Fresources%2Fimages%2FSearch.jpg&mode=Searchterm&name={title}",
+    "steps"     : [
+     "({title}|{title|replace(&colon;, the movie&colon;)}|{title|replace( the movie,)})",
+     ".*",
+     ".*subbed"
+     ],
+    "action"    : "PLAY"
+   }
+  ]
+ ],
+ "tvshows"      : [
+  [
+   {
+    "link"      : "plugin://plugin.video.dubbedanime/?iconimage=special%3A%2F%2Fhome%2Faddons%2Fplugin.video.dubbedanime%2Fresources%2Fimages%2FSearch.jpg&mode=Searchterm&name={clearname}",
+    "steps"     : [
+     ".*{clearname}.*(Season {season}|{season}.*Season|{season_ordinal}).*",
+     ".* {episode}",
+     ".*dubbed"
+     ],
+    "action"    : "PLAY"
+   },
+   {
+    "link"      : "plugin://plugin.video.dubbedanime/?iconimage=special%3A%2F%2Fhome%2Faddons%2Fplugin.video.dubbedanime%2Fresources%2Fimages%2FSearch.jpg&mode=Searchterm&name={clearname}",
+    "steps"     : [
+     ".*{clearname}.*(Season {season}|{season}.*Season|{season_ordinal}).*",
+     ".* {episode}",
+     ".*subbed"
+     ],
+    "action"    : "PLAY"
+   },
+   {
+    "link"      : "plugin://plugin.video.dubbedanime/?iconimage=special%3A%2F%2Fhome%2Faddons%2Fplugin.video.dubbedanime%2Fresources%2Fimages%2FSearch.jpg&mode=Searchterm&name={clearname}",
+    "steps"     : [
+     "{clearname}",
+     ".* {absolute_number}",
+     ".*dubbed"
+     ],
+    "action"    : "PLAY"
+   },
+   {
+    "link"      : "plugin://plugin.video.dubbedanime/?iconimage=special%3A%2F%2Fhome%2Faddons%2Fplugin.video.dubbedanime%2Fresources%2Fimages%2FSearch.jpg&mode=Searchterm&name={clearname}",
+    "steps"     : [
+     "{clearname}",
+     ".* {absolute_number}",
+     ".*subbed"
+     ],
+    "action"    : "PLAY"
+   }
+  ]
+ ]
+}
