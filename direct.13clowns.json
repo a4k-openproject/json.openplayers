@@ -1,5 +1,5 @@
 {
- "name"         : "Direct [COLOR FF0084FF]-[/COLOR] [COLOR red]13Clowns[/COLOR] Video",
+ "name"         : "[COLOR red]13Clowns[/COLOR] Video",
  "plugin"       : "plugin.video.13clowns",
  "priority"     : 500,
  "id"           : "direct.13clowns",

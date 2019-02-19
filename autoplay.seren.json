@@ -1,8 +1,8 @@
 {
- "name"         : "Auto Play [COLOR FF0084FF]-[/COLOR] Seren",
+ "name"         : "Seren (Auto Play)",
  "repository"   : "nixgates.repository",
  "plugin"       : "plugin.video.seren",
- "priority"     : 200,
+ "priority"     : 225,
  "id"           : "autoplay.seren",
  "filters"      : {},
  "postprocess"  : "",

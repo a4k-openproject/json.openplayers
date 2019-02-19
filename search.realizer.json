@@ -1,4 +1,4 @@
-{"name"    : "Search [COLOR FF0084FF]-[/COLOR] Realizer",
+{"name"    : "Realizer",
  "plugin"  : "plugin.video.realizer",
  "id"      : "search.realizer",
  "priority": 350,

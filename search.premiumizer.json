@@ -1,4 +1,4 @@
-{"name"    : "Search [COLOR FF0084FF]-[/COLOR] Premiumizer",
+{"name"    : "Premiumizer",
  "plugin"  : "plugin.video.premiumizer",
  "id"      : "search.premiumizer",
  "priority": 350,

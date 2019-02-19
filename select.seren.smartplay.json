@@ -1,8 +1,8 @@
 {
- "name"         : "Smart Play w/ Source Select[COLOR FF0084FF]-[/COLOR] Seren",
+ "name"         : "Seren (Smart Play w/ Source Select)",
  "repository"   : "nixgates.repository",
  "plugin"       : "plugin.video.seren",
- "priority"     : 225,
+ "priority"     : 200,
  "id"           : "select.seren.smartplay",
  "filters"      : {},
  "postprocess"  : "",
