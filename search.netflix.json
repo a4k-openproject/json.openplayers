@@ -1,26 +1,80 @@
 {
  "name"         : "Search [COLOR FF0084FF]-[/COLOR] Netflix",
  "plugin"       : "plugin.video.netflix",
- "priority"     : 200,
+ "priority"     : 300,
  "id"           : "search.netflix",
- "movies"       : [[
+ "movies"       : [
+  [
+   {
+    "link"      : "plugin://plugin.video.netflix/?action=search_result&term={title_+}",
+    "steps"     : [
+     "{title}"
+     ],
+    "action"    : "PLAY"
+   },
    {
     "link"      : "plugin://plugin.video.netflix/directory/search/{title_+}/",
-    "steps"     : [ "{title}" ]
+    "steps"     : [
+     "{title}"
+     ],
+    "action"    : "PLAY"
    }
-  ]],
- "tvshows"      : [[
+  ]
+ ],
+ "tvshows"      : [
+  [
    {
-    "link"      : "plugin://plugin.video.netflix/directory/search/{clearname_+}/",
-    "steps"     : [ "{clearname}", ".* {season}", "{episode}" ]
+    "link"      : "plugin://plugin.video.netflix/?action=search_result&term={clearname_+}",
+    "steps"     : [
+     "{clearname}",
+     ".* {season}",
+     "{episode}"
+     ],
+    "action"    : "PLAY"
+   },
+   {
+    "link"      : "plugin://plugin.video.netflix/?action=search_result&term={clearname_+}",
+    "steps"     : [
+     "{clearname}",
+     "{episode}"
+     ],
+    "action"    : "PLAY"
+   },
+   {
+    "link"      : "plugin://plugin.video.netflix/?action=search_result&term={clearname_+}",
+    "steps"     : [
+     "{clearname}",
+     "{clearname}",
+     "{episode}"
+     ],
+    "action"    : "PLAY"
    },
    {
     "link"      : "plugin://plugin.video.netflix/directory/search/{clearname_+}/",
-    "steps"     : [ "{clearname}", "{episode}" ]
+    "steps"     : [
+     "{clearname}",
+     ".* {season}",
+     "{episode}"
+     ],
+    "action"    : "PLAY"
    },
    {
     "link"      : "plugin://plugin.video.netflix/directory/search/{clearname_+}/",
-    "steps"     : [ "{clearname}", "{clearname}", "{episode}" ]
+    "steps"     : [
+     "{clearname}",
+     "{episode}"
+     ],
+    "action"    : "PLAY"
+   },
+   {
+    "link"      : "plugin://plugin.video.netflix/directory/search/{clearname_+}/",
+    "steps"     : [
+     "{clearname}",
+     "{clearname}",
+     "{episode}"
+     ],
+    "action"    : "PLAY"
    }
-  ]]
+  ]
+ ]
 }

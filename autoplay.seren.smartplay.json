@@ -1,0 +1,21 @@
+{
+ "name"         : "Smart Play w/ Auto Play [COLOR FF0084FF]-[/COLOR] Seren",
+ "repository"   : "nixgates.repository",
+ "plugin"       : "plugin.video.seren",
+ "priority"     : 175,
+ "id"           : "autoplay.seren.smartplay",
+ "filters"      : {},
+ "postprocess"  : "",
+ "tvshows"      : [
+  [
+   {
+    "link"      : "plugin://plugin.video.seren/?action=smartPlay&source_select=false&actionArgs=%7B%22episodeInfo%22%3A%20%7B%22art%22%3A%20%7B%22banner%22%3A%20%22{banner}%22%2C%20%22fanart%22%3A%20%22{fanart}%22%2C%20%22landscape%22%3A%20%22{fanart}%22%2C%20%22poster%22%3A%20%22{poster}%22%2C%20%22thumb%22%3A%20%22{thumbnail}%22%7D%2C%20%22ids%22%3A%20%7B%22imdb%22%3A%20%22{epimdb}%22%2C%20%22tmdb%22%3A%20{eptmdb}%2C%20%22trakt%22%3A%20{eptrakt}%2C%20%22tvdb%22%3A%20{epid}%2C%20%22tvrage%22%3A%200%7D%2C%20%22info%22%3A%20%7B%22castandrole%22%3A%20%5B%5D%2C%20%22duration%22%3A%20{duration}%2C%20%22episode%22%3A%20{episode}%2C%20%22genre%22%3A%20%5B%22%22%5D%2C%20%22imdbnumber%22%3A%20%22{epimdb}%22%2C%20%22mediatype%22%3A%20%22episode%22%2C%20%22mpaa%22%3A%20%22{mpaa}%22%2C%20%22originaltitle%22%3A%20%22{title}%22%2C%20%22plot%22%3A%20%22{plot}%22%2C%20%22premiered%22%3A%20%22{firstaired}%22%2C%20%22rating%22%3A%20{rating}%2C%20%22season%22%3A%20{season}%2C%20%22sortepisode%22%3A%20{episode}%2C%20%22sortseason%22%3A%20{season}%2C%20%22studio%22%3A%20%22{network_clean}%22%2C%20%22title%22%3A%20%22{title}%22%2C%20%22trailer%22%3A%20%22%22%2C%20%22tvshowtitle%22%3A%20%22{clearname}%22%2C%20%22year%22%3A%20{epyear}%7D%7D%2C%20%22showInfo%22%3A%20%7B%22art%22%3A%20%7B%22banner%22%3A%20%22{banner}%22%2C%20%22fanart%22%3A%20%22{fanart}%22%2C%20%22landscape%22%3A%20%22{fanart}%22%2C%20%22poster%22%3A%20%22{poster}%22%2C%20%22thumb%22%3A%20%22{thumbnail}%22%7D%2C%20%22ids%22%3A%20%7B%22imdb%22%3A%20%22tt5614844%22%2C%20%22slug%22%3A%20%22{slug}%22%2C%20%22tmdb%22%3A%20{tmdb}%2C%20%22trakt%22%3A%20{trakt}%2C%20%22tvdb%22%3A%20{id}%2C%20%22tvrage%22%3A%20null%7D%2C%20%22info%22%3A%20%7B%22castandrole%22%3A%20%5B%5D%2C%20%22country%22%3A%20%22%22%2C%20%22duration%22%3A%20{duration}%2C%20%22episodeCount%22%3A%20%22{episodes}%22%2C%20%22genre%22%3A%20%5B%22%22%5D%2C%20%22imdbnumber%22%3A%20%22{imdb}%22%2C%20%22mediatype%22%3A%20%22tvshow%22%2C%20%22mpaa%22%3A%20%22{mpaa}%22%2C%20%22no_seasons%22%3A%20{seasons}%2C%20%22originaltitle%22%3A%20%22{clearname}%22%2C%20%22playcount%22%3A%200%2C%20%22plot%22%3A%20%22{plot}%22%2C%20%22premiered%22%3A%20%22{series_firstaired}%22%2C%20%22rating%22%3A%20{rating}%2C%20%22seasonCount%22%3A%20{seasons_no_specials}%2C%20%22showaliases%22%3A%20%5B%5D%2C%20%22status%22%3A%20%22{status}%22%2C%20%22studio%22%3A%20%22{network_clean}%22%2C%20%22trailer%22%3A%20%22%22%2C%20%22tvshowtitle%22%3A%20%22{clearname}%22%2C%20%22year%22%3A%20%22{year}%22%7D%7D%7D",
+    "steps"     : [],
+    "action"    : "PLAY"
+   }
+  ]
+ ],
+ "musicvideos"  : [],
+ "music"        : [],
+ "live"         : []
+}
