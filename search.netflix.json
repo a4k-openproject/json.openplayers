@@ -1,5 +1,5 @@
 {
- "name"         : "Netflix",
+ "name"         : "[COLOR red]Netflix[/COLOR]",
  "plugin"       : "plugin.video.netflix",
  "priority"     : 300,
  "id"           : "search.netflix",

@@ -1,5 +1,5 @@
 {
- "name"         : "Seren (Source Select)",
+ "name"         : "[COLOR FF00BFFF]Seren[/COLOR] (Source Select)",
  "repository"   : "nixgates.repository",
  "plugin"       : "plugin.video.seren",
  "priority"     : 250,

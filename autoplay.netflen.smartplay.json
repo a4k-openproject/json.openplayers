@@ -1,5 +1,5 @@
 {
- "name"         : "Netflix [COLOR FF0084FF]->[/COLOR] Seren (Smart Play w/ Auto Play)",
+ "name"         : "[COLOR red]Netflix[/COLOR] [COLOR FF0084FF]->[/COLOR] [COLOR FF00BFFF]Seren[/COLOR] (Smart Play w/ Auto Play)",
  "repository"   : "nixgates.repository",
  "plugin"       : "plugin.video.netflix, plugin.video.seren",
  "priority"     : 75,

@@ -1,5 +1,5 @@
 {
- "name"         : "Seren (Smart Play w/ Auto Play)",
+ "name"         : "[COLOR FF00BFFF]Seren[/COLOR] (Smart Play w/ Auto Play)",
  "repository"   : "nixgates.repository",
  "plugin"       : "plugin.video.seren",
  "priority"     : 175,
