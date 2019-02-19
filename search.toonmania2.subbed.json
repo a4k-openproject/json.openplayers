@@ -1,15 +1,15 @@
 {
- "name"         : "Toonmania2 Dubbed",
+ "name"         : "Toonmania2 Subbed",
  "repository"   : "doko.repository",
  "plugin"       : "plugin.video.toonmania2",
- "priority"     : 100,
- "id"           : "search.toonmania2.dubbed",
+ "priority"     : 450,
+ "id"           : "search.toonmania2.subbed",
  "filters"      : {},
  "postprocess"  : "",
  "movies"       : [
   [
    {
-    "link"      : "plugin://plugin.video.toonmania2/?api=0&route=_inputSearch&view=SEARCH_MENU&query={title_+}",
+    "link"      : "plugin://plugin.video.toonmania2/?api=1&route=_inputSearch&view=SEARCH_MENU&query={title_+}",
     "steps"     : [
      ".* Search Results",
      "({title}|{title|replace(%26,&)}|{title|replace(&colon;,)}|{title|replace(%26,&)|replace(&colon;,)})..Movie.",
@@ -18,7 +18,7 @@
     "action"    : "PLAY"
    },
    {
-    "link"      : "plugin://plugin.video.toonmania2/?api=1&route=_inputSearch&view=SEARCH_MENU&query={title_+}",
+    "link"      : "plugin://plugin.video.toonmania2/?api=0&route=_inputSearch&view=SEARCH_MENU&query={title_+}",
     "steps"     : [
      ".* Search Results",
      "({title}|{title|replace(%26,&)}|{title|replace(&colon;,)}|{title|replace(%26,&)|replace(&colon;,)})..Movie.",
@@ -31,15 +31,6 @@
  "tvshows"      : [
   [
    {
-    "link"      : "plugin://plugin.video.toonmania2/?api=0&route=_inputSearch&view=SEARCH_MENU&query={clearname_+}",
-    "steps"     : [
-     ".* Search Results",
-     "({clearname}|{clearname|replace(&colon;,)})",
-     "({clearname}|{clearname|replace(&colon;,)}) Season {season} Episode {episode}"
-     ],
-    "action"    : "PLAY"
-   },
-   {
     "link"      : "plugin://plugin.video.toonmania2/?api=1&route=_inputSearch&view=SEARCH_MENU&query={clearname_+}",
     "steps"     : [
      ".* Search Results",
@@ -53,7 +44,7 @@
     "steps"     : [
      ".* Search Results",
      "({clearname}|{clearname|replace(&colon;,)})",
-     "({clearname}|{clearname|replace(&colon;,)}) Episode {episode}"
+     "({clearname}|{clearname|replace(&colon;,)}) Season {season} Episode {episode}"
      ],
     "action"    : "PLAY"
    },
@@ -68,6 +59,15 @@
    },
    {
     "link"      : "plugin://plugin.video.toonmania2/?api=0&route=_inputSearch&view=SEARCH_MENU&query={clearname_+}",
+    "steps"     : [
+     ".* Search Results",
+     "({clearname}|{clearname|replace(&colon;,)})",
+     "({clearname}|{clearname|replace(&colon;,)}) Episode {episode}"
+     ],
+    "action"    : "PLAY"
+   },
+   {
+    "link"      : "plugin://plugin.video.toonmania2/?api=1&route=_inputSearch&view=SEARCH_MENU&query={clearname_+}",
     "steps"     : [
      ".* Search Results",
      "({clearname}|{clearname|replace(&colon;,)})",
@@ -76,7 +76,7 @@
     "action"    : "PLAY"
    },
    {
-    "link"      : "plugin://plugin.video.toonmania2/?api=1&route=_inputSearch&view=SEARCH_MENU&query={clearname_+}",
+    "link"      : "plugin://plugin.video.toonmania2/?api=0&route=_inputSearch&view=SEARCH_MENU&query={clearname_+}",
     "steps"     : [
      ".* Search Results",
      "({clearname}|{clearname|replace(&colon;,)})",

@@ -2,7 +2,7 @@
  "name"         : "Dubbed Anime Subbed",
  "repository"   : "repository.magicality",
  "plugin"       : "plugin.video.dubbedanime",
- "priority"     : 100,
+ "priority"     : 450,
  "id"           : "search.dubbedanime.subbed",
  "filters"      : {},
  "postprocess"  : "",
