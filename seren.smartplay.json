@@ -3,7 +3,7 @@
  "repository"   : "nixgates.repository",
  "plugin"       : "plugin.video.seren",
  "priority"     : 175,
- "id"           : "autoplay.seren.smartplay",
+ "id"           : "seren.smartplay",
  "filters"      : {},
  "postprocess"  : "",
  "tvshows"      : [

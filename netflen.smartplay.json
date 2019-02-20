@@ -3,7 +3,7 @@
  "repository"   : "nixgates.repository",
  "plugin"       : "plugin.video.netflix, plugin.video.seren",
  "priority"     : 75,
- "id"           : "autoplay.netflen.smartplay",
+ "id"           : "netflen.smartplay",
  "filters"      : {},
  "postprocess"  : "",
  "tvshows"      : [
