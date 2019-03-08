@@ -1,0 +1,25 @@
+{
+ "name"         : "[COLOR FFFF6B00]Elementum[/COLOR]",
+ "repository"   : "repository.elementum",
+ "plugin"       : "plugin.video.elementum",
+ "priority"     : 400,
+ "id"           : "direct.elementum",
+ "movies"       : [
+  [
+   {
+    "link"      : "plugin://plugin.video.elementum/library/play/movie/{tmdb}",
+    "steps"     : [],
+    "action"    : "PLAY"
+   }
+  ]
+ ],
+ "tvshows"      : [
+  [
+   {
+    "link"      : "plugin://plugin.video.elementum/library/play/show/{tmdb}/season/{season}/episode/{episode}",
+    "steps"     : [],
+    "action"    : "PLAY"
+   }
+  ]
+ ]
+}
