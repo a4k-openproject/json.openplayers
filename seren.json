@@ -1,5 +1,5 @@
 {
- "name"         : "[COLOR FF00BFFF]Seren[/COLOR]",
+ "name"         : "[COLOR FF00BFFF]Seren[/COLOR] - 0.2.15 and below",
  "repository"   : "nixgates.repository",
  "plugin"       : "plugin.video.seren",
  "priority"     : 225,
