@@ -1,0 +1,28 @@
+{
+ "name"         : "Destiny",
+
+ "plugin"       : "plugin.video.destiny",
+ "priority"     : 500,
+ "id"           : "direct.destiny",
+
+
+ "movies"       : [
+  [
+   {
+    "link"      : "plugin://plugin.video.destiny/?mode=4&title={title_+}&description={info[plot]}&imdb={imdb}&season=%20&episode=%20&tvdb={tmdb}&data={year}&eng_name={urltitle}&fanart={fanart}&iconimage={poster}&heb_name={urltitle}&name={urltitle}&original_title={original_title}&show_original_year={year}&id={tmdb}&url=http://api.themoviedb.org/3/movie/popular?api_key=34142515d9d23817496eeb4ff1d223d0&language=he&page=1",
+    "steps"     : ["(.*.*)"],
+    "action"    : "Play"
+   }
+  ]
+ ],
+ "tvshows"      : [
+  [
+   {
+    "link"      : "plugin://plugin.video.destiny/?mode=4&title={title_+}&season={season}&episode={episode}&description={info[plot]}&imdb={imdb}&tvdb={tmdb}&data={year}&eng_name={urltitle}&fanart={fanart}&iconimage={poster}&heb_name={urltitle}&name={urltitle}&original_title={showname}&show_original_year={year}&id={tmdb}&url=http://api.themoviedb.org/3/movie/popular?api_key=34142515d9d23817496eeb4ff1d223d0&language=he&page=1",
+    "steps"     : ["(.*.*)"],
+    "action"    : "Play"
+   }
+  ]
+ ]
+
+}
