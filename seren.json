@@ -3,7 +3,7 @@
  "repository"   : "nixgates.repository",
  "plugin"       : "plugin.video.seren",
  "priority"     : 225,
- "id"           : "seren.0216",
+ "id"           : "seren",
  "filters"      : {},
  "postprocess"  : "",
  "movies"       : [
