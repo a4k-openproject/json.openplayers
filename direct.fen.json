@@ -1,0 +1,8 @@
+{
+ "name"         : "Fen",
+ "plugin"       : "plugin.video.fen",
+ "priority"     : 500,
+ "id"           : "direct.fen",
+ "movies"       : [[{"link": "plugin://plugin.video.fen/?mode=play_media&vid_type=movie&query={name}&year={year}&poster={info[poster]}&plot={info[plot]}&title={title}&tmdb_id={id}"}]],
+ "tvshows"      : [[{"link": "plugin://plugin.video.fen/?mode=play_media&vid_type=episode&query={showname}&year={year}&season={season}&episode={episode}&ep_name={title}&tmdb_id={tmdb}&premiered={firstaired}&plot={info[plot]}"}]]
+}
