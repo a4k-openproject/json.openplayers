@@ -1,0 +1,12 @@
+{
+ "name"         : "foxystreams (BitLord Search)",
+ "plugin"       : "plugin.video.foxystreams",
+ "priority"     : 200,
+ "id"           : "direct.foxystreams-bitlord",
+ "movies"       : [[{
+  "link"      : "plugin://plugin.video.foxystreams/?scraper=BitLord&mode=movie&imdb={imdb}&title={title}&plot={plot}&genres={genres}&votes={votes}&rating={rating}&year={year}&mpaa={mpaa}&premiered={premiered}&original_title={original_title}&poster={poster}&fanart={fanart}"
+ }]],
+ "tvshows"      : [[{
+  "link"      : "plugin://plugin.video.foxystreams/?scraper=BitLord&mode=tv&id={id}&episode={episode}&season={season}&title={title}&plot={plot}&genres={genres}&votes={votes}&rating={rating}&year={year}&mpaa={mpaa}&firstaired={firstaired}&showname={showname}&poster={poster}&fanart={fanart}"
+ }]]
+}
