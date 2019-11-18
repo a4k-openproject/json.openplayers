@@ -10,7 +10,17 @@
    {
     "link"      : "plugin://plugin.video.embycon/?content_type=video",
     "steps"     : [
-     "Library - Movies",
+     "All - Movies .A-Z.",
+     "{title[0]}",
+     "{title}"
+     ],
+    "action"    : "PLAY"
+   },
+   {
+    "link"      : "plugin://plugin.video.embycon/?content_type=video",
+    "steps"     : [
+     "All - Movies .A-Z.",
+     "#",
      "{title}"
      ],
     "action"    : "PLAY"
@@ -22,7 +32,8 @@
    {
     "link"      : "plugin://plugin.video.embycon/?content_type=video",
     "steps"     : [
-     "Library - TV shows",
+     "All - TV Show .A-Z.",
+     "{clearname[0]}",
      "{clearname}",
      "{season}x{episode}"
      ],
@@ -31,7 +42,29 @@
    {
     "link"      : "plugin://plugin.video.embycon/?content_type=video",
     "steps"     : [
-     "Library - TV shows",
+     "All - TV Show .A-Z.",
+     "{clearname[0]}",
+     "{clearname}",
+     "Season {season}",
+     "{season}x{episode}"
+     ],
+    "action"    : "PLAY"
+   },
+   {
+    "link"      : "plugin://plugin.video.embycon/?content_type=video",
+    "steps"     : [
+     "All - TV Show .A-Z.",
+     "#",
+     "{clearname}",
+     "{season}x{episode}"
+     ],
+    "action"    : "PLAY"
+   },
+   {
+    "link"      : "plugin://plugin.video.embycon/?content_type=video",
+    "steps"     : [
+     "All - TV Show .A-Z.",
+     "#",
      "{clearname}",
      "Season {season}",
      "{season}x{episode}"
