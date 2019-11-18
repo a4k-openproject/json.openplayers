@@ -1,0 +1,43 @@
+{
+ "name"         : "EmbyCon",
+ "plugin"       : "plugin.video.embycon",
+ "priority"     : 200,
+ "id"           : "embycon",
+ "filters"      : {},
+ "postprocess"  : "",
+ "movies"       : [
+  [
+   {
+    "link"      : "plugin://plugin.video.embycon/?content_type=video",
+    "steps"     : [
+     "Library - Movies",
+     "{title}"
+     ],
+    "action"    : "PLAY"
+   }
+  ]
+ ],
+ "tvshows"      : [
+  [
+   {
+    "link"      : "plugin://plugin.video.embycon/?content_type=video",
+    "steps"     : [
+     "Library - TV shows",
+     "{clearname}",
+     "{season}x{episode}"
+     ],
+    "action"    : "PLAY"
+   },
+   {
+    "link"      : "plugin://plugin.video.embycon/?content_type=video",
+    "steps"     : [
+     "Library - TV shows",
+     "{clearname}",
+     "Season {season}",
+     "{season}x{episode}"
+     ],
+    "action"    : "PLAY"
+   }
+  ]
+ ]
+}
