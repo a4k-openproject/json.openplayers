@@ -12,7 +12,7 @@
     "steps"     : [
      "All - Movies .A-Z.",
      "{sorttitle[0]}",
-     "{title|replace(%27,')|replace(%3A,&colon;)|replace(%2D,-)}"
+     "{title|replace(%26,&)|replace(%27,')|replace(%2D,-)|replace(%3A,&colon;)|replace(%3B,&semi;)}"
      ],
     "action"    : "PLAY"
    },
@@ -21,7 +21,7 @@
     "steps"     : [
      "All - Movies .A-Z.",
      "#",
-     "{title|replace(%27,')|replace(%3A,&colon;)|replace(%2D,-)}"
+     "{title|replace(%26,&)|replace(%27,')|replace(%2D,-)|replace(%3A,&colon;)|replace(%3B,&semi;)}"
      ],
     "action"    : "PLAY"
    }
@@ -34,7 +34,7 @@
     "steps"     : [
      "All - TV Show .A-Z.",
      "{sortname[0]}",
-     "{clearname}",
+     "{clearname|replace(%26,&)|replace(%27,')|replace(%2D,-)|replace(%3A,&colon;)|replace(%3B,&semi;)}",
      "{season}x{episode}"
      ],
     "action"    : "PLAY"
@@ -44,7 +44,7 @@
     "steps"     : [
      "All - TV Show .A-Z.",
      "{sortname[0]}",
-     "{clearname}",
+     "{clearname|replace(%26,&)|replace(%27,')|replace(%2D,-)|replace(%3A,&colon;)|replace(%3B,&semi;)}",
      "Season {season}",
      "{season}x{episode}"
      ],
@@ -55,7 +55,7 @@
     "steps"     : [
      "All - TV Show .A-Z.",
      "#",
-     "{clearname}",
+     "{clearname|replace(%26,&)|replace(%27,')|replace(%2D,-)|replace(%3A,&colon;)|replace(%3B,&semi;)}",
      "{season}x{episode}"
      ],
     "action"    : "PLAY"
@@ -65,7 +65,7 @@
     "steps"     : [
      "All - TV Show .A-Z.",
      "#",
-     "{clearname}",
+     "{clearname|replace(%26,&)|replace(%27,')|replace(%2D,-)|replace(%3A,&colon;)|replace(%3B,&semi;)}",
      "Season {season}",
      "{season}x{episode}"
      ],
