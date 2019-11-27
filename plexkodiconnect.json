@@ -1,0 +1,72 @@
+{
+ "name"         : "PlexKodiConnect",
+ "plugin"       : "plugin.video.plexkodiconnect",
+ "priority"     : 200,
+ "id"           : "plexkodiconnect",
+ "filters"      : {},
+ "postprocess"  : "",
+ "movies"       : [
+  [
+   {
+    "link"      : "plugin://plugin.video.plexkodiconnect/?mode=browseplex&key=%2fhubs%2fsearch%3ftype%3d1&prompt=Search+Movie",
+    "steps"     : [
+     "@keyboard:{realtitle}",
+     "{realtitle} .{year}."
+     ],
+    "action"    : "PLAY"
+   },
+   {
+    "link"      : "plugin://plugin.video.plexkodiconnect/?mode=browseplex&key=%2fhubs%2fsearch%3ftype%3d1&prompt=Search+Movie",
+    "steps"     : [
+     "@keyboard:{realtitle}",
+     "{realtitle}"
+     ],
+    "action"    : "PLAY"
+   }
+  ]
+ ],
+ "tvshows"      : [
+  [
+   {
+    "link"      : "plugin://plugin.video.plexkodiconnect/?mode=browseplex&key=%2fhubs%2fsearch%3ftype%3d2&prompt=Search+TVShow",
+    "steps"     : [
+     "@keyboard:{realname}",
+     "{realname} .{year}.",
+     ".* {season}",
+     "{title}"
+     ],
+    "action"    : "PLAY"
+   },
+   {
+    "link"      : "plugin://plugin.video.plexkodiconnect/?mode=browseplex&key=%2fhubs%2fsearch%3ftype%3d2&prompt=Search+TVShow",
+    "steps"     : [
+     "@keyboard:{realname}",
+     "{realname} .{year}.",
+     ".* {season}",
+     "{season}x{episode}"
+     ],
+    "action"    : "PLAY"
+   },
+   {
+    "link"      : "plugin://plugin.video.plexkodiconnect/?mode=browseplex&key=%2fhubs%2fsearch%3ftype%3d2&prompt=Search+TVShow",
+    "steps"     : [
+     "@keyboard:{realname}",
+     "{realname}",
+     ".* {season}",
+     "{title}"
+     ],
+    "action"    : "PLAY"
+   },
+   {
+    "link"      : "plugin://plugin.video.plexkodiconnect/?mode=browseplex&key=%2fhubs%2fsearch%3ftype%3d2&prompt=Search+TVShow",
+    "steps"     : [
+     "@keyboard:{realname}",
+     "{realname}",
+     ".* {season}",
+     "{season}x{episode}"
+     ],
+    "action"    : "PLAY"
+   }
+  ]
+ ]
+}
