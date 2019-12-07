@@ -1,0 +1,76 @@
+{
+ "name"         : "EmbyCon",
+ "plugin"       : "plugin.video.embycon",
+ "priority"     : 200,
+ "id"           : "embycon",
+ "filters"      : {},
+ "postprocess"  : "",
+ "movies"       : [
+  [
+   {
+    "link"      : "plugin://plugin.video.embycon/?content_type=video",
+    "steps"     : [
+     "All - Movies .A-Z.",
+     "{sorttitle[0]}",
+     "{title|replace(%26,&)|replace(%27,')|replace(%2D,-)|replace(%3A,&colon;)|replace(%3B,&semi;)}"
+     ],
+    "action"    : "PLAY"
+   },
+   {
+    "link"      : "plugin://plugin.video.embycon/?content_type=video",
+    "steps"     : [
+     "All - Movies .A-Z.",
+     "#",
+     "{title|replace(%26,&)|replace(%27,')|replace(%2D,-)|replace(%3A,&colon;)|replace(%3B,&semi;)}"
+     ],
+    "action"    : "PLAY"
+   }
+  ]
+ ],
+ "tvshows"      : [
+  [
+   {
+    "link"      : "plugin://plugin.video.embycon/?content_type=video",
+    "steps"     : [
+     "All - TV Show .A-Z.",
+     "{sortname[0]}",
+     "{clearname|replace(%26,&)|replace(%27,')|replace(%2D,-)|replace(%3A,&colon;)|replace(%3B,&semi;)}",
+     "{season}x{episode}"
+     ],
+    "action"    : "PLAY"
+   },
+   {
+    "link"      : "plugin://plugin.video.embycon/?content_type=video",
+    "steps"     : [
+     "All - TV Show .A-Z.",
+     "{sortname[0]}",
+     "{clearname|replace(%26,&)|replace(%27,')|replace(%2D,-)|replace(%3A,&colon;)|replace(%3B,&semi;)}",
+     "Season {season}",
+     "{season}x{episode}"
+     ],
+    "action"    : "PLAY"
+   },
+   {
+    "link"      : "plugin://plugin.video.embycon/?content_type=video",
+    "steps"     : [
+     "All - TV Show .A-Z.",
+     "#",
+     "{clearname|replace(%26,&)|replace(%27,')|replace(%2D,-)|replace(%3A,&colon;)|replace(%3B,&semi;)}",
+     "{season}x{episode}"
+     ],
+    "action"    : "PLAY"
+   },
+   {
+    "link"      : "plugin://plugin.video.embycon/?content_type=video",
+    "steps"     : [
+     "All - TV Show .A-Z.",
+     "#",
+     "{clearname|replace(%26,&)|replace(%27,')|replace(%2D,-)|replace(%3A,&colon;)|replace(%3B,&semi;)}",
+     "Season {season}",
+     "{season}x{episode}"
+     ],
+    "action"    : "PLAY"
+   }
+  ]
+ ]
+}
