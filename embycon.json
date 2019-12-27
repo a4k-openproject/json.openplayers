@@ -10,7 +10,9 @@
    {
     "link"      : "plugin://plugin.video.embycon/?content_type=video",
     "steps"     : [
-     "All - Movies .A-Z.",
+     "Global Lists",
+     "Movies",
+     "Movies - A-Z",
      "{sorttitle[0]}",
      "{title|replace(%26,&)|replace(%27,')|replace(%2D,-)|replace(%3A,&colon;)|replace(%3B,&semi;)}"
      ],
@@ -19,7 +21,9 @@
    {
     "link"      : "plugin://plugin.video.embycon/?content_type=video",
     "steps"     : [
-     "All - Movies .A-Z.",
+     "Global Lists",
+     "Movies",
+     "Movies - A-Z",
      "#",
      "{title|replace(%26,&)|replace(%27,')|replace(%2D,-)|replace(%3A,&colon;)|replace(%3B,&semi;)}"
      ],
@@ -32,7 +36,9 @@
    {
     "link"      : "plugin://plugin.video.embycon/?content_type=video",
     "steps"     : [
-     "All - TV Show .A-Z.",
+     "Global Lists",
+     "TV Shows",
+     "TV Shows - A-Z",
      "{sortname[0]}",
      "{clearname|replace(%26,&)|replace(%27,')|replace(%2D,-)|replace(%3A,&colon;)|replace(%3B,&semi;)}",
      "{season}x{episode}"
@@ -42,7 +48,9 @@
    {
     "link"      : "plugin://plugin.video.embycon/?content_type=video",
     "steps"     : [
-     "All - TV Show .A-Z.",
+     "Global Lists",
+     "TV Shows",
+     "TV Shows - A-Z",
      "{sortname[0]}",
      "{clearname|replace(%26,&)|replace(%27,')|replace(%2D,-)|replace(%3A,&colon;)|replace(%3B,&semi;)}",
      "Season {season}",
@@ -53,7 +61,9 @@
    {
     "link"      : "plugin://plugin.video.embycon/?content_type=video",
     "steps"     : [
-     "All - TV Show .A-Z.",
+     "Global Lists",
+     "TV Shows",
+     "TV Shows - A-Z",
      "#",
      "{clearname|replace(%26,&)|replace(%27,')|replace(%2D,-)|replace(%3A,&colon;)|replace(%3B,&semi;)}",
      "{season}x{episode}"
@@ -63,7 +73,9 @@
    {
     "link"      : "plugin://plugin.video.embycon/?content_type=video",
     "steps"     : [
-     "All - TV Show .A-Z.",
+     "Global Lists",
+     "TV Shows",
+     "TV Shows - A-Z",
      "#",
      "{clearname|replace(%26,&)|replace(%27,')|replace(%2D,-)|replace(%3A,&colon;)|replace(%3B,&semi;)}",
      "Season {season}",
