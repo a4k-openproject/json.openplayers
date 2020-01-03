@@ -1,8 +1,8 @@
 {
   "name"         : "hGO EU",
-  "plugin"       : "plugin.video.hgoeu",
+  "plugin"       : "plugin.video.hbogoeu",
   "priority"     : 300,
-  "id"           : "search.hgoeu",
+  "id"           : "search.hbogoeu",
   "movies"       : [[
     {
      "link"      : "plugin://plugin.video.hbogoeu/?mode=4&name={title_+}&url=Search...",
