@@ -1,0 +1,26 @@
+{
+  "name"         : "hGO EU",
+  "plugin"       : "plugin.video.hbogoeu",
+  "priority"     : 300,
+  "id"           : "search.hbogoeu",
+  "movies"       : [[
+    {
+     "link"      : "plugin://plugin.video.hbogoeu/?mode=4&name={title_+}&url=Search...",
+     "steps"     : [ "@keyboard:{title}", "{title}" ]
+    }
+   ]],
+  "tvshows"      : [[
+    {
+     "link"      : "plugin://plugin.video.hbogoeu/?mode=4&name={clearname_+}&url=Search...",
+     "steps"     : [ "@keyboard:{clearname}", "{clearname}", ".* {season}", "{episode}" ]
+    },
+    {
+     "link"      : "plugin://plugin.video.hbogoeu/?mode=4&name={clearname_+}&url=Search...",
+     "steps"     : [ "@keyboard:{clearname}", "{clearname}", "{episode}" ]
+    },
+    {
+     "link"      : "plugin://plugin.video.hbogoeu/?mode=4&name={clearname_+}&url=Search...",
+     "steps"     : [ "@keyboard:{clearname}", "{clearname}", "{clearname}", "{episode}" ]
+    }
+   ]]
+ }
