@@ -1,0 +1,30 @@
+{
+ "name"         : "Xonal  [COLOR FF0084FF]-[/COLOR] MRSP ([COLOR FF0084FF]Q[/COLOR])",
+ "repository"   : "repository.sarsaila",
+ "plugin"       : "plugin.video.romanianpack",
+ "priority"     : 700,
+ "id"           : "MRSP",
+ "filters"      : {},
+ "postprocess"  : "",
+ "movies"       : [
+  [
+   {
+    "link"      : "plugin://plugin.video.romanianpack/?action=searchSites&modalitate=edit&query={title}",
+    "steps"     : ["(.*)"],
+    "action"    : "PLAY"
+   }
+  ]
+ ],
+ "tvshows"      : [
+  [
+   {
+    "link"      : "plugin://plugin.video.romanianpack/?action=searchSites&modalitate=edit&query={showname}",
+    "steps"     : ["(.*)"],
+    "action"    : "PLAY"
+   }
+  ]
+ ],
+ "musicvideos"  : [],
+ "music"        : [],
+ "live"         : []
+}
