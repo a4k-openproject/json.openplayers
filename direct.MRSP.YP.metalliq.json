@@ -1,0 +1,30 @@
+{
+ "name"         : "Direct -[COLOR ff0084ff] MRSP [/COLOR]([COLOR gold]YP[/COLOR])",
+ "repository"   : "repository.sarsaila",
+ "plugin"       : "plugin.video.romanianpack",
+ "priority"     : 200,
+ "id"           : "MRSP",
+ "filters"      : {},
+ "postprocess"  : "",
+ "movies"       : [
+  [
+   {
+    "link"      : "plugin://plugin.video.romanianpack/?action=searchSites&modalitate=edit&query={title}",
+    "steps"     : ["(.*)"],
+    "action"    : "OPEN"
+   }
+  ]
+ ],
+ "tvshows"      : [
+  [
+   {
+    "link"      : "plugin://plugin.video.romanianpack/?action=searchSites&modalitate=edit&query={showname}",
+    "steps"     : ["(.*)"],
+    "action"    : "PLAY"
+   }
+  ]
+ ],
+ "musicvideos"  : [],
+ "music"        : [],
+ "live"         : []
+}
