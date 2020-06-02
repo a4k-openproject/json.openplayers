@@ -1,0 +1,30 @@
+{
+ "name"         : "Shadow",
+ "repository"   : "",
+ "plugin"       : "plugin.video.shadow",
+ "priority"     : 200,
+ "id"           : "direct.shadow",
+ "filters"      : {},
+ "postprocess"  : "",
+ "movies"       : [
+  [
+   {
+    "link"      : "plugin://plugin.video.shadow/?mode=15&amp;dates=+&amp;episode=+&amp;description=+&amp;all_w=+&amp;show_original_year=+&amp;fanart=+&amp;heb_name=+&amp;iconimage=+&amp;original_title=+&amp;eng_name=+&amp;data=+&amp;url=+&amp;fav_status=false&amp;tmdbid=+&amp;season=+&amp;isr=0&amp;last_id=&amp;image_master=&amp;id={id}&amp;name=%5BCOLOR+white%5D{name_+}%5B%2FCOLOR%5D&amp;video_data=",
+    "steps"     : [],
+    "action"    : "PLAY"
+   }
+  ]
+ ],
+ "tvshows"      : [
+  [
+   {
+    "link"      :"plugin://plugin.video.shadow/?name={name_+}&amp;url=+&amp;iconimage=+&amp;fanart=+&amp;description=+&amp;data=+&amp;original_title=+&amp;id={id}&amp;season={season}&amp;episode={episode}&amp;show_original_year=+&amp;video_data_exp=+&amp;all_w=+&amp;use_filter=false&amp;mode=15",
+    "steps"     : [],
+    "action"    : "PLAY"
+   }
+  ]
+ ],
+ "musicvideos"  : [],
+ "music"        : [],
+ "live"         : []
+}
