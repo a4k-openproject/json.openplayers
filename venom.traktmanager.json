@@ -1,0 +1,7 @@
+{
+    "name" : "[COLOR red]Venom[/COLOR] (Trakt Manager)",
+    "plugin" : "plugin.video.venom",
+    "priority" : 500,
+    "play_movie" : "plugin://plugin.video.venom/?action=traktManager&amp;name={title_url}&amp;imdb={imdb}",
+    "play_episode" : "plugin://plugin.video.venom/?action=traktManager&amp;name={title_url}&amp;imdb={imdb}&amp;tvdb={id}&amp;season={season}&amp;episode={episode}"
+}
