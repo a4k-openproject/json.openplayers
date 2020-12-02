@@ -1,7 +1,8 @@
 {
-    "name" : "[COLOR red]Venom[/COLOR] (Trakt Manager)",
-    "plugin" : "plugin.video.venom",
-    "priority" : 500,
-    "movies" : [[{"link": "plugin://plugin.video.venom/?action=traktManager&amp;name={title_+}&amp;imdb={imdb}"}]],
-    "tvshows" : [[{"link": "plugin://plugin.video.venom/?action=traktManager&amp;name={title_+}&amp;imdb={imdb}&amp;tvdb={id}&amp;season={season}&amp;episode={episode}"}]]
+    "name": "[COLOR red]Venom[/COLOR] (Trakt Manager)",
+    "plugin": "plugin.video.venom",
+    "id": "venom.traktmanager",
+    "priority": 103,
+    "movies": [[{"link": "plugin://plugin.video.venom/?action=tools_traktManager&amp;name={title_+}&amp;imdb={imdb}"}]],
+    "tvshows": [[{"link": "plugin://plugin.video.venom/?action=tools_traktManager&amp;name={title_+}&amp;imdb={imdb}&amp;tvdb={id}&amp;season={season}&amp;episode={episode}"}]]
 }

@@ -1,0 +1,8 @@
+{
+    "name": "[COLOR red]Venom[/COLOR] (Clear Providers)",
+    "plugin": "plugin.video.venom",
+    "id": "venom.clearproviders",
+    "priority": 102,
+    "movies": [[{"link": "plugin://plugin.video.venom/?action=cache_clearSources"}]],
+    "tvshows": [[{"link": "plugin://plugin.video.venom/?action=cache_clearSources"}]]
+}
