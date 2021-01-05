@@ -1,11 +1,20 @@
 {
- "name"         : "[COLOR FF00BFFF]Seren[/COLOR] (Smart Play)",
+ "name"         : "Seren - Auto Play",
  "repository"   : "nixgates.repository",
  "plugin"       : "plugin.video.seren",
  "priority"     : 165,
  "id"           : "seren.smartplay",
  "filters"      : {},
  "postprocess"  : "",
+ "movies"       : [
+  [
+   {
+    "link"      : "plugin://plugin.video.seren/?action=getSources&source_select=false&actionArgs=%7B%22info%22%3A%20%7B%22rating%22%3A%20%22{rating}%22%2C%20%22aired%22%3A%20%22{date}%22%2C%20%22castandrole%22%3A%20%5B%5B%22%22%5D%5D%2C%20%22title%22%3A%20%22{title}%22%2C%20%22tagline%22%3A%20%22{tagline}%22%2C%20%22plot%22%3A%20%22{plot}%22%2C%20%22originaltitle%22%3A%20%22{original_title}%22%2C%20%22imdbnumber%22%3A%20%22{imdb}%22%2C%20%22director%22%3A%20%22%22%2C%20%22year%22%3A%20%22{year}%22%2C%20%22duration%22%3A%20%22{duration}%22%2C%20%22mediatype%22%3A%20%22movie%22%2C%20%22mpaa%22%3A%20%22{mpaa}%22%2C%20%22genre%22%3A%20%5B%22{genres}%22%5D%2C%20%22trailer%22%3A%20%22%22%7D%2C%20%22plot%22%3A%20%22{plot}%22%2C%20%22art%22%3A%20%7B%22fanart%22%3A%20%22{fanart}%22%2C%20%22poster%22%3A%20%22{poster}%22%2C%20%22landscape%22%3A%20%22{fanart}%22%7D%2C%20%22title%22%3A%20%22{title}%22%2C%20%22fanart%22%3A%20%22{fanart}%22%2C%20%22ids%22%3A%20%7B%22tmdb%22%3A%20%22{id}%22%2C%20%22imdb%22%3A%20%22{imdb}%22%2C%20%22slug%22%3A%20%22{slug}%22%2C%20%22trakt%22%3A%20%22{trakt}%22%7D%2C%20%22year%22%3A%20%22{year}%22%2C%20%22tagline%22%3A%20%22{tagline}%22%2C%20%22rating%22%3A%20%22{rating}%22%2C%20%22imdb%22%3A%20%22{imdb}%22%2C%20%22duration%22%3A%20%22{duration}%22%7D",
+    "steps"     : [],
+    "action"    : "PLAY"
+   }
+  ]
+ ],
  "tvshows"      : [
   [
    {
