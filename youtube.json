@@ -1,7 +1,0 @@
-{
-    "name" : "YouTube",
-    "plugin" : "plugin.video.youtube",
-    "priority" : 600,
-    "search_movie" : "plugin://plugin.video.youtube/search/?q={name}&amp;search_type=notvalid",
-    "search_episode" : "plugin://plugin.video.youtube/search/?q={name}&amp;search_type=notvalid"
-}
