@@ -1,8 +1,0 @@
-{
-    "name": "[COLOR red]Venom[/COLOR] (Clear Providers)", 
-    "plugin": "plugin.video.venom", 
-    "priority": 102, 
-    "is_resolvable": "true", 
-    "play_episode": "plugin://plugin.video.venom/?action=cache_clearSources", 
-    "play_movie": "plugin://plugin.video.venom/?action=cache_clearSources"
-}
