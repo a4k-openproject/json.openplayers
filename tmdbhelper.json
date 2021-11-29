@@ -1,0 +1,19 @@
+{
+
+"name" : "TMDB Helper",
+
+"plugin" : "plugin.video.themoviedb.helper",
+
+"priority" : 500,
+
+"id" : "direct.themoviedb.helper",
+
+"movies" : [[{"link" :
+
+"plugin://plugin.video.themoviedb.helper/?info=play&amp;type=movie&amp;tmdb_id={id}&ignore_default=true"}]],
+
+"tvshows" : [[{"link" :
+
+"plugin://plugin.video.themoviedb.helper/?info=play&amp;type=episode&amp;tvdb_id={id}&amp;title={title}&amp;epid={epid}&amp;season={season}&amp;episode={episode}&ignore_default=true"}]]
+
+}
