@@ -1,0 +1,10 @@
+{
+    "name"              : "Einthusan",
+    "plugin"            : "plugin.video.einthusan",
+    "is_resolvable"     : "true",
+    "play_movie"        : [
+                            "plugin://plugin.video.einthusan/hindi/search/?q={name_url}&search_type=notvalid",
+                            {"title": "(?i){title}"}
+                          ],
+    "search_movie"      : "plugin://plugin.video.einthusan/hindi/search/?q={name_url}&search_type=notvalid",
+}
