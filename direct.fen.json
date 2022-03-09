@@ -2,6 +2,6 @@
     "name" : "Fen",
     "plugin" : "plugin.video.fen",
     "priority" : 500,
-    "play_movie" : "plugin://plugin.video.fen/?mode=play_media&vid_type=movie&query={name}&year={year}&poster={poster}&title={title}&tmdb_id={id}",
-    "play_episode" : "plugin://plugin.video.fen/?mode=play_media&vid_type=episode&query={showname}&year={year}&season={season}&episode={episode}&ep_name={title}&tmdb_id={tmdb}&premiered={firstaired}"
+    "play_movie" : "plugin://plugin.video.fen/?mode=play_media&media_type=movie&query={name}&year={year}&poster={poster}&title={title}&tmdb_id={id}",
+    "play_episode" : "plugin://plugin.video.fen/?mode=play_media&media_type=episode&query={showname}&year={year}&season={season}&episode={episode}&ep_name={title}&tmdb_id={tmdb}&premiered={firstaired}"
 }
