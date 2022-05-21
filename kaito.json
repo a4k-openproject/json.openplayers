@@ -1,0 +1,8 @@
+{
+    "name" : "[COLOR FF00BFFF]Kaito[/COLOR]",
+    "plugin" : "plugin.video.kaito",
+    "priority" : 200,
+    "is_resolvable" : "false",
+    "play_movie" : "plugin://plugin.video.kaito/?action=tmdb_helper&sourceselect=false&forceresumecheck=true&title={title_+}&actionArgs=%7B%22item_type%22%3A%20%22movie%22%2C%20%22trakt_id%22%3A%20{trakt}%7D",
+    "play_episode" : "plugin://plugin.video.kaito/?action=tmdb_helper&sourceselect=false&forceresumecheck=true&title={clearname_+}&actionArgs=%7B%22episode%22%3A%20{episode}%2C%20%22item_type%22%3A%20%22episode%22%2C%20%22season%22%3A%20{season}%2C%20%22trakt_id%22%3A%20{trakt}%7D"
+}
