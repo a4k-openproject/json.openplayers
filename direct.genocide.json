@@ -1,6 +1,6 @@
 {
   "name": "[COLOR darkred]Genocide[/COLOR]",
-  "plugin": "plugin.video.themoviedb.helper",
+  "plugin": "plugin.video.Genocide",
   "icon": "special://home/addons/plugin.video.Genocide/icon.png",
   "priority": 300,
   "is_resolvable" : "true",
