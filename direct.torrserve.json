@@ -1,0 +1,9 @@
+{
+    "name": "[COLOR FF00BFFF]Torrserve[/COLOR]",
+    "language": "en",
+    "plugin": "plugin.video.torrserve",
+    "priority": 400,
+    "search_movie": "plugin://plugin.video.torrserve/?action=search&mod=search&query={en_clearname_url}&type=movie",
+    "search_episode": "plugin://plugin.video.torrserve/?action=search&mod=search&query={en_clearname_url}&type=tvshow",
+    "is_resolvable": "false"
+}
